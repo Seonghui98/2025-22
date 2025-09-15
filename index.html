@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Counter</title>
+  <script>
+    let count = 0;
+    function increase() {
+      count++;
+      document.getElementById('count').innerText = count;
+    }
+  </script>
+</head>
+<body>
+  <h1>클릭 횟수: <span id="count">0</span></h1>
+  <button onclick="increase()">클릭</button>
+</body>
+</html>
